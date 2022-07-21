@@ -16,11 +16,11 @@ class Program
 	{
 		double result;
 		Console.WriteLine("Enter first value");
-		string value1 = "5";
+		string value1 = Console.ReadLine();
 		int number1 = Parse(value1);
 
 		Console.WriteLine("Enter second value");
-		string value2 = "10";
+		string value2 = Console.ReadLine();
 		int number2 = Parse(value2);
 
 		result = (double)(number1 + number2) / 2;
